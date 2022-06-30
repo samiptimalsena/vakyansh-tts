@@ -1,6 +1,6 @@
-input_text_path='/home/harveen/en/iitm_data/english/txt.done.data'
-input_wav_path='/home/harveen/en/iitm_data/english/wav_22k'
-gender='male'
+input_text_path='/content/vakyansh-tts/data/ne_np_female/line_index.txt'
+input_wav_path='/content/vakyansh-tts/data/ne_np_female/wavs_22k/'
+gender='female'
 
 
 output_data_path='../../data/glow/'$gender

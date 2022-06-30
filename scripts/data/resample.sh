@@ -1,5 +1,5 @@
-input_wav_path='/home/harveen/en/iitm_data/english/wav/'
-output_wav_path='/home/harveen/en/iitm_data/english/wav_22k/'
+input_wav_path='/content/vakyansh-tts/data/ne_np_female/wavs/'
+output_wav_path='/content/vakyansh-tts/data/ne_np_female/wavs_22k/'
 output_sample_rate=22050
 
 #######################

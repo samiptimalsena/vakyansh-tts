@@ -1,10 +1,10 @@
 #!/bin/bash
 
-gender='male'
+gender='female'
 
 config='../../config/glow/'$gender'.json'
-modeldir='../../checkpoints/glow/'$gender
-logdir='../../logs/glow/'$gender
+modeldir='/content/drive/MyDrive/vakyansh-tts-checkpoints/glow/'$gender
+logdir='/content/drive/MyDrive/vakyansh-tts-logs/glow/'$gender
 init=1  # 1 if start from scratch. 0 if start from last checkpoint
 
 
