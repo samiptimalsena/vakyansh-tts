@@ -17,5 +17,6 @@ python ../../src/hifi_gan/train.py \
     --input_validation_file '../../data/hifi/'$gender'/valid.txt' \
     --checkpoint_path $modeldir \
     --logs_path $logdir \
-    --checkpoint_interval 10000 \
-    --stdout_interval 50
+    --checkpoint_interval 100 \
+    --stdout_interval 50 \
+    --training_epochs 30

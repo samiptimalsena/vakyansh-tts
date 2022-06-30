@@ -68,7 +68,7 @@ def save_txts_from_txt_done_data(
 
     fnames, ftexts = [], []
     for line in file_lines:
-        elems = line.split('"')
+        elems = line.split('\t')
         fnames.append(elems[0].strip())
         ftexts.append(elems[1].strip().lower().replace('‘','\'').replace('’','\''))
 
