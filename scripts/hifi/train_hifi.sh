@@ -1,10 +1,10 @@
 #!/bin/bash
 
-gender='male'
+gender='female'
 
 config='../../config/hifi/config_v1.json'
-modeldir='../../checkpoints/hifi/'$gender
-logdir='../../logs/hifi/'$gender
+modeldir='/content/drive/MyDrive/vakyansh-tts-checkpoints/hifi/'$gender
+logdir='/content/drive/MyDrive/vakyansh-tts-logs/hifi/'$gender
 
 
 ####################################################

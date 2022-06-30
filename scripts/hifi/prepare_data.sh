@@ -1,5 +1,5 @@
-input_wav_path='/home/harveen/en/iitm_data/english/wav_22k' #give multiple folders separated by comma(,)
-gender='male'
+input_wav_path='/content/vakyansh-tts/data/ne_np_female/wavs_22k' #give multiple folders separated by comma(,)
+gender='female'
 
 output_data_path='../../data/hifi/'$gender
 
